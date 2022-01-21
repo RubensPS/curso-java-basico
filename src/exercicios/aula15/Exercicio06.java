@@ -13,9 +13,9 @@ public class Exercicio06 {
         numero1 = input.nextInt();
         numero2 = input.nextInt();
         numero3 = input.nextInt();
-        if (numero1 > numero2 && numero1 > numero3) {
+        if (numero1 >= numero2 && numero1 >= numero3) {
             System.out.println(numero1);
-        } else if (numero2 > numero1 && numero2 > numero3) {
+        } else if (numero2 >= numero1 && numero2 >= numero3) {
             System.out.println(numero2);
         } else System.out.println(numero3);
     }

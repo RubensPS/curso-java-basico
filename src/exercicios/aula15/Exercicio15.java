@@ -14,7 +14,7 @@ public class Exercicio15 {
         System.out.println("Digite o teceiro lado:");
         lado3 = input.nextInt();
 
-        if ((lado1+lado2) > lado3 || (lado1+lado3) > lado2 || (lado2+lado3) > lado1) {
+        if ((lado1+lado2) > lado3 && (lado1+lado3) > lado2 && (lado2+lado3) > lado1) {
             if (lado1 == lado2 && lado1 == lado3) {
                 System.out.println("O triângulo é equilátero.");
             } else if (lado1 == lado2 ^ lado1 == lado3 ^ lado2 == lado3) {
